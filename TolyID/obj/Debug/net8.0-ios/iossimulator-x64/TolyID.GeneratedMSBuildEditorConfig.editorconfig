@@ -1,0 +1,59 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TolyID
+build_property.ProjectDir = C:\Users\Gelly\source\repos\TolyID\TolyID\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Gelly/source/repos/TolyID/TolyID/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TolyID.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Gelly/source/repos/TolyID/TolyID/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TolyID.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Gelly/source/repos/TolyID/TolyID/Interface/View/FichaAnestesia.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TolyID.Interface.View.FichaAnestesia.xaml
+build_metadata.AdditionalFiles.TargetPath = Interface\View\FichaAnestesia.xaml
+build_metadata.AdditionalFiles.RelativePath = Interface\View\FichaAnestesia.xaml
+
+[C:/Users/Gelly/source/repos/TolyID/TolyID/Interface/View/FichaAnimal.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TolyID.Interface.View.FichaAnimal.xaml
+build_metadata.AdditionalFiles.TargetPath = Interface\View\FichaAnimal.xaml
+build_metadata.AdditionalFiles.RelativePath = Interface\View\FichaAnimal.xaml
+
+[C:/Users/Gelly/source/repos/TolyID/TolyID/Interface/View/FichaBiometria.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TolyID.Interface.View.FichaBiometria.xaml
+build_metadata.AdditionalFiles.TargetPath = Interface\View\FichaBiometria.xaml
+build_metadata.AdditionalFiles.RelativePath = Interface\View\FichaBiometria.xaml
+
+[C:/Users/Gelly/source/repos/TolyID/TolyID/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TolyID.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Gelly/source/repos/TolyID/TolyID/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TolyID.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

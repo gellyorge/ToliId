@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TolyID.Interface.View.FichaAnestesia"
+             Title="FichaAnestesia">
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+            <!-- Título da Página -->
+            <Label Text="Ficha Anestésica" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center" />
+
+            <!-- Campos da Ficha Anestésica -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Tipo de Anestésico/Dose:" FontAttributes="Bold"/>
+                <Label Text="Via de Administração:" FontAttributes="Bold" Grid.Column="1"/>
+
+            </Grid>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Entry Placeholder="Tipo de Anestésico/Dose" Margin="0,0,0,10"/>
+                <Entry Placeholder="Via de Administração" Margin="0,0,0,10" Grid.Column="1"/>
+
+            </Grid>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Tempo de Anestesia:" FontAttributes="Bold"/>
+                <Label Text="Aplicação:" FontAttributes="Bold" Grid.Column="1"/>
+
+            </Grid>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Entry x:Name="TempoAnestPicker" Margin="0,0,0,10"  />
+                <TimePicker x:Name="AplicacaoPicker" Margin="0,0,0,10" Grid.Column="1" />
+
+            </Grid>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Indução:" FontAttributes="Bold"/>
+                <Label Text="Retorno:" FontAttributes="Bold" Grid.Column="1"/>
+
+            </Grid>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <TimePicker Margin="0,0,0,10" />
+                <TimePicker Margin="0,0,0,10" Grid.Column="1"/>
+
+            </Grid>
+
+            <Label Text="Parâmetros fisiológicos a cada 10 minutos" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="Center" />
+            <!-- Grid para FC -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="FC:" Margin="0,0,5,10" Grid.Column="0" HorizontalTextAlignment="End"/>
+                <Entry Placeholder="FC" Margin="0,0,5,10" Grid.Column="1"/>
+                <Entry Placeholder="FC" Margin="0,0,5,10" Grid.Column="2"/>
+                <Entry Placeholder="FC" Margin="0,0,5,10" Grid.Column="3"/>
+                <Entry Placeholder="FC" Margin="0,0,5,10" Grid.Column="4"/>
+                <Entry Placeholder="FC" Margin="0,0,5,10" Grid.Column="5"/>
+                <Entry Placeholder="FC" Margin="0,0,5,10" Grid.Column="6"/>
+            </Grid>
+
+            <!-- Grid para FR -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="FR:" Margin="0,0,5,10" Grid.Column="0" HorizontalTextAlignment="End"/>
+                <Entry Placeholder="FR" Margin="0,0,5,10" Grid.Column="1"/>
+                <Entry Placeholder="FR" Margin="0,0,5,10" Grid.Column="2"/>
+                <Entry Placeholder="FR" Margin="0,0,5,10" Grid.Column="3"/>
+                <Entry Placeholder="FR" Margin="0,0,5,10" Grid.Column="4"/>
+                <Entry Placeholder="FR" Margin="0,0,5,10" Grid.Column="5"/>
+                <Entry Placeholder="FR" Margin="0,0,5,10" Grid.Column="6"/>
+            </Grid>
+
+            <!-- Grid para Oxi -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Oximetria:" Margin="0,0,5,10" Grid.Column="0" HorizontalTextAlignment="End"/>
+                <Entry Placeholder="Oxi" Margin="0,0,5,10" Grid.Column="1"/>
+                <Entry Placeholder="Oxi" Margin="0,0,5,10" Grid.Column="2"/>
+                <Entry Placeholder="Oxi" Margin="0,0,5,10" Grid.Column="3"/>
+                <Entry Placeholder="Oxi" Margin="0,0,5,10" Grid.Column="4"/>
+                <Entry Placeholder="Oxi" Margin="0,0,5,10" Grid.Column="5"/>
+                <Entry Placeholder="Oxi" Margin="0,0,5,10" Grid.Column="6"/>
+            </Grid>
+
+            <!-- Grid para Temp -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Temperatura:" Margin="0,0,5,10" Grid.Column="0" HorizontalTextAlignment="End"/>
+                <Entry Placeholder="Temp" Margin="0,0,5,10" Grid.Column="1"/>
+                <Entry Placeholder="Temp" Margin="0,0,5,10" Grid.Column="2"/>
+                <Entry Placeholder="Temp" Margin="0,0,5,10" Grid.Column="3"/>
+                <Entry Placeholder="Temp" Margin="0,0,5,10" Grid.Column="4"/>
+                <Entry Placeholder="Temp" Margin="0,0,5,10" Grid.Column="5"/>
+                <Entry Placeholder="Temp" Margin="0,0,5,10" Grid.Column="6"/>
+            </Grid>
+            
+            <!-- Observações -->
+            <Label Text="Observações:" FontAttributes="Bold"/>
+            <Editor Placeholder="Digite as observações aqui..." HeightRequest="100"/>
+        </StackLayout>
+    </ScrollView>
+
+
+</ContentPage>

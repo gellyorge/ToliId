@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TolyID.Interface.View.FichaAnimal"
+             Title="FichaAnimal"
+             >
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="15">
+
+            <!-- Identificação do Animal -->
+            <StackLayout Spacing="10">
+
+                <!-- <Label Text="Ficha Do Animal" FontAttributes="Bold" FontSize="Medium" HorizontalOptions="Center"/>-->
+                <Label Text="Identificação do Animal" FontAttributes="Bold" FontSize="Medium" />
+                <Grid ColumnSpacing="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+
+                    </Grid.ColumnDefinitions>
+
+                    <Entry x:Name="IdAnimalEntry" Placeholder="Número de Identificação" Margin="0,0,0,10" Grid.Column="0"/>
+                    <Entry x:Name="MicrochipEntry" Placeholder="Número do microchip" Margin="0,0,0,10" Grid.Column="1"/>
+                </Grid>
+            </StackLayout>
+
+            <!-- Local e Data de Captura -->
+            <StackLayout Spacing="10">
+
+                <Label Text="Captura" FontAttributes="Bold" FontSize="Medium" />
+                <Entry x:Name="LocalCapturaEntry" Placeholder="Local de Captura" Margin="0,0,0,10"/>
+                <Entry x:Name="PesoEntry" Placeholder="Peso" Margin="0,0,0,10"/>
+
+                <Label Text="Data:" FontAttributes="Bold" Grid.Column="0" />
+                <DatePicker x:Name="DataCapturaPicker" Margin="0,0,0,10" Grid.Column="1"/>
+
+                <Label Text="Hora:" FontAttributes="Bold"  Grid.Column="2" />
+                <TimePicker x:Name="HorarioCapturaPicker" Margin="0,0,0,10" Grid.Column="3" />
+
+            </StackLayout>
+            <StackLayout Padding="20" Spacing="15">
+
+                <!-- Título da Página -->
+                <Label Text="Amostras" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center" />
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="100"/>
+
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+
+                    </Grid.RowDefinitions>
+
+                    <CheckBox x:Name="SangueCheckBox" />
+                    <Label Text="Sangue" VerticalOptions="Center" Grid.Column="1" Grid.Row="0"/>
+
+                    <CheckBox x:Name="FezesCheckBox" Grid.Column="2" />
+                    <Label Text="Fezes" VerticalOptions="Center" Grid.Column="3" Grid.Row="0" />
+
+                    <CheckBox x:Name="PeloCheckBox" Grid.Row="1"/>
+                    <Label Text="Pelo" VerticalOptions="Center" Grid.Row="1" Grid.Column="1"/>
+
+                    <CheckBox x:Name="EctoparasitosCheckBox" Grid.Row="1" Grid.Column="2" />
+                    <Label Text="Ectoparasitos" VerticalOptions="Center" Grid.Row="1" Grid.Column="3"/>
+
+                    <CheckBox x:Name="SwabCheckBox"  Grid.Row="2" Grid.Column="0"/>
+                    <Label Text="Swab" VerticalOptions="Center"  Grid.Row="2" Grid.Column="1"/>
+
+                    <CheckBox x:Name="LocalCheckBox"  Grid.Row="2" Grid.Column="2"/>
+                    <Label Text="Local" VerticalOptions="Center" Grid.Row="2" Grid.Column="3"/>
+
+                </Grid>
+
+                <!-- Campo de texto para Outros -->
+                <StackLayout Spacing="10">
+                    <Label Text="Outros:" VerticalOptions="Center" />
+                    <Entry x:Name="OutrosEntry" Placeholder="Digite outras amostras aqui..." Margin="0,0,0,10"/>
+                </StackLayout>
+
+            </StackLayout>
+            <!-- Equipe e Instituição -->
+            <StackLayout Spacing="15">
+                <Label Text="Equipe e Instituição" FontAttributes="Bold" FontSize="Medium" />
+                <Entry x:Name="EquipeResponsavelEntry" Placeholder="Equipe responsável" Margin="0,0,0,10"/>
+                <Entry x:Name="InstituicaoEntry" Placeholder="Instituição" Margin="0,0,0,10"/>
+                <Entry x:Name="ContatoResponsavelEntry" Placeholder="Contato do responsável" Margin="0,0,0,10"/>
+            </StackLayout>
+
+            <!-- Observações -->
+            <StackLayout Spacing="15">
+                <Label Text="Observações" FontAttributes="Bold" FontSize="Medium" />
+                <Editor x:Name="ObservacoesEditor" Placeholder="Digite as observações aqui..." Margin="0,0,0,10" HeightRequest="100"/>
+            </StackLayout>
+
+            <!-- Ficha Anestésica -->
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
