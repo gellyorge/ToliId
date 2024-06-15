@@ -15,7 +15,10 @@ namespace TolyID.Model
         [MaxLength(50)]
         public string Nome { get; set; }
 
-        [OneToMany]
+        /*[OneToMany]
         public List<Cientista> Cientistas { get; set; }
+
+        [OneToMany]
+        public List<Captura> Capturas { get; set; }*/
     }
 }

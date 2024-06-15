@@ -11,7 +11,7 @@ namespace TolyID.Model
         [ForeignKey(typeof(Equipe))]
         public int? Id_EquipeFk { get; set; }
 
-        [ManyToOne]
+        [OneToMany]
         public Equipe Equipe { get; set; }
 
         public string Nome { get; set; }

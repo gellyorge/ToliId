@@ -10,7 +10,7 @@ namespace TolyID.Model
         public int Id_Tipo_Amostra { get; set; }
         public string Nome_Amostra { get; set; }
 
-        [OneToMany]
-        public List<Amostra> Amostras { get; set; }
+        [OneToOne]
+        public Amostra Amostras { get; set; }
     }
 }

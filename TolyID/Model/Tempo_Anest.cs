@@ -11,7 +11,7 @@ namespace TolyID.Model
         [ForeignKey(typeof(Ficha_Anestesica))]
         public int Id_Ficha_Anes { get; set; }
 
-        [ManyToOne]
+        [OneToOne]
         public Ficha_Anestesica FichaAnestesica { get; set; }
 
         public string Aplicacao { get; set; }

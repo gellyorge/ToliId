@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Diogo Lima\\Desktop\\Nova pasta\\ToliId\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Diogo Lima\\Desktop\\Nova pasta\\ToliId\\TolyID\\MauiProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TolyID\\MauiProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Diogo Lima\\Desktop\\Nova pasta\\ToliId\\TolyID\\TolyID.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TolyID\\TolyID.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Diogo Lima\\Desktop\\Nova pasta\\ToliId\\TolyID\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TolyID\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Diogo Lima\\Desktop\\Nova pasta\\ToliId\\TolyID\\App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TolyID\\App.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo Lima\\Desktop\\Nova pasta\\ToliId\\TolyID\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "TolyID\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Diogo Lima\\Desktop\\Nova pasta\\ToliId\\TolyID\\MauiProgram.cs",
+              "RelativeToolTip": "TolyID\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:00:52.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TolyID.csproj",
+              "DocumentMoniker": "C:\\Users\\Diogo Lima\\Desktop\\Nova pasta\\ToliId\\TolyID\\TolyID.csproj",
+              "RelativeDocumentMoniker": "TolyID\\TolyID.csproj",
+              "ToolTip": "C:\\Users\\Diogo Lima\\Desktop\\Nova pasta\\ToliId\\TolyID\\TolyID.csproj",
+              "RelativeToolTip": "TolyID\\TolyID.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-08T13:00:50.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Diogo Lima\\Desktop\\Nova pasta\\ToliId\\TolyID\\App.xaml",
+              "RelativeDocumentMoniker": "TolyID\\App.xaml",
+              "ToolTip": "C:\\Users\\Diogo Lima\\Desktop\\Nova pasta\\ToliId\\TolyID\\App.xaml",
+              "RelativeToolTip": "TolyID\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-08T13:00:48.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Diogo Lima\\Desktop\\Nova pasta\\ToliId\\TolyID\\App.xaml.cs",
+              "RelativeDocumentMoniker": "TolyID\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Diogo Lima\\Desktop\\Nova pasta\\ToliId\\TolyID\\App.xaml.cs",
+              "RelativeToolTip": "TolyID\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T13:00:46.169Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

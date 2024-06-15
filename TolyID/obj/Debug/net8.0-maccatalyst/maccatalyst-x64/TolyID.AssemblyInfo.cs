@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TolyID")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+99348ac2f97b4dec11edcbd7d53fcd70d88b1ee1")]
 [assembly: System.Reflection.AssemblyProductAttribute("TolyID")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TolyID")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
