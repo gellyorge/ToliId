@@ -15,10 +15,10 @@ namespace TolyID.Model
         [ForeignKey(typeof(Captura))]
         public int Id_Captura { get; set; }
 
-        [ManyToOne]
+        [OneToOne]
         public Tipo_Biometria TipoBiometria { get; set; }
 
-        [ManyToOne]
-        public Captura Captura { get; set; }
+        [OneToMany]
+        public List<Captura> Captura { get; set; }
     }
 }

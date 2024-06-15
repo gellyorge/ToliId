@@ -22,13 +22,14 @@ namespace TolyID.Model
         [ForeignKey(typeof(Animal))]
         public int AnimalId { get; set; }
 
-        [ManyToOne]
+        [OneToOne]
         public Amostra Amostra { get; set; }
 
-        [ManyToOne]
+        [OneToOne]
         public Equipe Equipe { get; set; }
 
-        [ManyToOne]
+        [OneToOne]
         public Animal Animal { get; set; }
+
     }
 }

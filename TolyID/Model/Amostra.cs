@@ -12,7 +12,9 @@ namespace TolyID.Model
         [ForeignKey(typeof(Tipo_Amostra))]
         public int Id_Tipo_Amostra { get; set; }
 
-        [ManyToOne]
+        [OneToOne]
         public Tipo_Amostra TipoAmostra { get; set; }
+        [OneToOne]
+        public Captura Capturas { get; set; }
     }
 }

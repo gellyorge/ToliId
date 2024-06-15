@@ -11,8 +11,12 @@ namespace TolyID.Model
         [ForeignKey(typeof(Captura))]
         public int Id_Captura { get; set; }
 
-        [ManyToOne]
+        [OneToOne]
         public Captura Captura { get; set; }
+        [OneToMany]
+        public List<Parametros> Parametros { get; set; }
+        [OneToOne]
+        public Tempo_Anest Tempo_Anest { get; set; }
 
         public string Tipo_Anestesico { get; set; }
         public double Dose { get; set; }
