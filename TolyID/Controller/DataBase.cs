@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TolyID.Model;
+using TolyID.MVVM.Model;
 
 namespace TolyID.Controller
 {
-     class DataBase
+    class DataBase
     {
         private static readonly string _path = Path.Combine(FileSystem.AppDataDirectory, "TolyId.db3");
         private static readonly SQLiteConnection conn;

@@ -1,4 +1,5 @@
-﻿namespace TolyID
+﻿using TolyID.MVVM.View;
+namespace TolyID
 {
     public partial class App : Application
     {
@@ -6,7 +7,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new TabPageFicha();
         }
     }
 }

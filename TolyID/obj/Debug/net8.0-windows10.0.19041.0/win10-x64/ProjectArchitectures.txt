@@ -1,1 +1,1 @@
-C:\Users\Diogo Lima\Desktop\Nova pasta (2)\TolyId\TolyID\TolyID.csproj;x64
+C:\Users\Gelly\Desktop\Aplicativos MAUI\ToliId\TolyID\TolyID.csproj;x64

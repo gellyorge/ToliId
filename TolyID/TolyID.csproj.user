@@ -2,22 +2,25 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
-    <ActiveDebugFramework>net8.0-windows10.0.19041.0</ActiveDebugFramework>
-    <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
+    <ActiveDebugFramework>net8.0-android</ActiveDebugFramework>
+    <ActiveDebugProfile>Pixel 5 - API 34 (Android 14.0 – API 34)</ActiveDebugProfile>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
-    <DefaultDevice>pixel_5_-_api_29</DefaultDevice>
+    <DefaultDevice>pixel_5_-_api_34</DefaultDevice>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="Interface\View\FichaAnestesia.xaml">
+    <MauiXaml Update="MVVM\View\FichaAnestesia.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Interface\View\FichaAnimal.xaml">
+    <MauiXaml Update="MVVM\View\FichaAnimal.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Interface\View\FichaBiometria.xaml">
+    <MauiXaml Update="MVVM\View\FichaBiometria.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MVVM\View\TabPageFicha.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

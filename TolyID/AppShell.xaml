@@ -3,28 +3,12 @@
     x:Class="TolyID.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:TolyID.Interface.View"
+    xmlns:local="clr-namespace:TolyID.MVVM.View"
     Shell.FlyoutBehavior="Disabled"
     Title="TolyID">
 
-    <TabBar>
-
-        <ShellContent
-            Title="Ficha Animal"
-            ContentTemplate="{DataTemplate local:FichaAnimal}"
-             />
-        <ShellContent
-            Title="Ficha Anestesica"
-            ContentTemplate="{DataTemplate local:FichaAnestesia}"
-              />
-        <ShellContent
-            Title="Ficha Biometrica"
-            ContentTemplate="{DataTemplate local:FichaBiometria}"
-             />
-        <!--<ShellContent
-            Title="TituloDaPagina"
-            ContentTemplate="{DataTemplate local:NomeDaPagina}"
-             />-->
-
-    </TabBar>
+    <ShellContent
+    Title="Ficha Animal"
+    ContentTemplate="{DataTemplate local:TabPageFicha}"
+     />
 </Shell>
